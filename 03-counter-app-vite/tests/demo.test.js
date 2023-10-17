@@ -1,5 +1,9 @@
 test ('Esta prueba no debe de fallar', () => {
-    if(1 === 0) {
-        throw new Error('No puede divivir entre 0');
-    }
+    // 1.- Inicializacion
+    const message = "Hola Mundo";
+    // 2.- Estimulo
+    const message2 = message.trim();
+    // 3.- Observar el comportamiento
+    expect(message).toBe(message2);
 });
+
